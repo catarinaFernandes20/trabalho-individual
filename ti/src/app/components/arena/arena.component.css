@@ -1,0 +1,7 @@
+.fundo{
+  background: url(src\assets\img\arena.jpg) no-repeat;
+  min-height: 100vh;
+  display: flex;
+  background-size: 1920px 1080px;
+  position: relative;
+}
