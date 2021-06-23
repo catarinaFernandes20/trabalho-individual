@@ -5,3 +5,25 @@
   background-size: 1920px 1080px;
   position: relative;
 }
+
+.loja{
+  position: absolute;
+  top:5.5%;
+  left: 56.5%;
+  cursor: pointer;
+}
+
+.treino{
+  position: absolute;
+  top:10%;
+  left: 19.5%;
+  cursor: pointer;
+}
+
+.arena{
+  position: absolute;
+  top:20%;
+  left: 35.5%;
+  cursor: pointer;
+}
+

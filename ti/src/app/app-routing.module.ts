@@ -8,16 +8,17 @@ import { LojaComponent } from './components/loja/loja.component';
 import { TreinarComponent } from './components/treinar/treinar.component';
 
 const routes: Routes = [
-  {
+   {
     path:"", component: CidadeComponent
   },
+  {
+    path:"Login", component: LoginComponent,
+  },
+
   {
     path:"Arena", component: ArenaComponent,
   },
 
-  {
-    path:"Login", component: LoginComponent,
-  },
   {
      path:"Loja", component: LojaComponent,
   },

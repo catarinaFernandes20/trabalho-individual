@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-cidade',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CidadeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private redirecionar:Router) { }
 
   ngOnInit(): void {
   }
 
+  entrarArena()
+  {
+    this.redirecionar.navigate(['/Arena']);
+  }
+  entrarLoja()
+  {
+    this.redirecionar.navigate(['/Loja']);
+  }
+  entrarTreino()
+  {
+    this.redirecionar.navigate(['/Treinar']);
+  }
 }
