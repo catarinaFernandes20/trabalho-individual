@@ -5,3 +5,14 @@
   background-size: 1920px 1080px;
   position: relative;
 }
+
+.maq1{
+  position: absolute;
+  top:46.5%;
+  left: 27.5%;
+  transition: all 0.7s ease;
+}
+.maq1:hover
+{
+  transform:scale(1.2);
+}

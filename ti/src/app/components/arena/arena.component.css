@@ -5,3 +5,17 @@
   background-size: 1920px 1080px;
   position: relative;
 }
+
+.naruto{
+  position: absolute;
+  top:50.5%;
+  left: 55%;
+}
+
+.goku{
+  position: absolute;
+  top: 49%;
+  left: 29%;
+}
+
+

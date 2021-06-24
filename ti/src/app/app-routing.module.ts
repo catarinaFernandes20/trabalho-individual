@@ -26,7 +26,9 @@ const routes: Routes = [
     path:"Treinar", component: TreinarComponent,
   },
 
-  {path:"NotFound", component: ErroComponent}
+  {path:"notFound", component: ErroComponent},
+
+  {path:"**", redirectTo:"notFound"}
 ];
 
 @NgModule({
