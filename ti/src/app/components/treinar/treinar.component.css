@@ -3,16 +3,26 @@
   min-height: 100vh;
   display: flex;
   background-size: 1920px 1080px;
-  position: relative;
+
 }
 
 .maq1{
   position: absolute;
-  top:46.5%;
-  left: 27.5%;
+  top:47.5%;
+  left: 27%;
   transition: all 0.7s ease;
 }
 .maq1:hover
+{
+  transform:scale(1.2);
+}
+.maq2{
+  position: absolute;
+  top:47.9%;
+  left: 69.5%;
+  transition: all 0.7s ease;
+}
+.maq2:hover
 {
   transform:scale(1.2);
 }
