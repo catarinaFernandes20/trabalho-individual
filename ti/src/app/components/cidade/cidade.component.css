@@ -27,3 +27,33 @@
   cursor: pointer;
 }
 
+.btnper
+{
+  position: absolute;
+  padding: 15px;
+  margin: 90px;
+  top: 0%;
+  left: 0%;
+  transition: all 0.7s ease;
+}
+.btnper:hover
+{
+  transform:scale(1.2);
+}
+
+.btnar
+{
+  position: absolute;
+  padding: 15px;
+  margin: 90px;
+  top: 0%;
+  left: 15%;
+  transition: all 0.7s ease;
+}
+
+.btnar:hover
+{
+  transform:scale(1.2);
+}
+
+

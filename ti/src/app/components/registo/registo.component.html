@@ -1,0 +1,25 @@
+<div class="fundo">
+  <div class="card card-container">
+    <h1 class="titulo">
+      Registar Jogador
+    </h1>
+    <form class="form" method="POST">
+    <div class="input">
+      <input class="inp" type="text" name="name" placeholder="Nome" [(ngModel)]="nome">
+    </div>
+    <div class="input">
+      <input class="inp" type="password" name="palavraPass" placeholder="Password" [(ngModel)]="pass">
+    </div>
+    <div class="logbtn">
+      <button class="btn" (click)="registar()">
+        Registar
+      </button>
+    </div>
+    <div class="logbtn">
+      <button class="btn" [routerLink]="['/Login']" routerLinkActive="active">
+        Cancelar
+      </button>
+    </div>
+  </form>
+ </div>
+ </div>
